@@ -1,0 +1,175 @@
+
+
+#paraId {
+    display: flex;
+    margin-top: 25px;
+    color: white;
+    font-size: larger;
+
+}
+
+.blocApp {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    backdrop-filter: 5px;
+    color: white;
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+
+#ageCase {
+    display: flex;
+    width: 300px;
+    justify-content: inherit;
+    margin: auto;
+    border: none;
+    background-color: rgb(0, 155, 226);
+    height: 45px;
+    padding-top: 16px;
+    border-radius: 8px;
+    color: rgb(245, 245, 2);
+    cursor: pointer;
+    margin-top: 20px;
+    padding-left: 95px;
+
+}
+
+#textCase {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    border: outlined;
+    font-size: larger;
+
+}
+
+#nameCase {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    border: outlined;
+    font-size: larger;
+
+}
+
+#yourName
+{
+    display: flex;
+    color: yellow;
+
+}
+
+#sexGenre
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: auto;
+    padding: 15px;
+    width: 300px;
+    
+}
+
+#genreText
+{
+    margin-bottom: 0;
+}
+
+#profiledescription
+
+{
+    display: block;
+    background-color: black;
+    color: white;
+}
+
+#TitleIdUse
+{
+    display: none;
+}
+
+#CreateParadiv
+{
+    font-size: larger;
+    
+}
+
+#restart
+{
+display: none;
+margin: auto;
+align-items: center;
+width: 150px;
+height: 45px;
+background-color: rgb(0, 155, 226);
+border: none;
+cursor: pointer;
+border-radius: 8px;
+text-align: center;
+text-decoration: none;
+
+}
+
+body 
+{
+background: url('astro.jpg');
+}
+
+#restarts{
+
+    text-decoration: none;
+}
+
+#imgButton{
+    height: 35px;
+    margin-top: 5px;
+    width: 45px;
+    color: white;
+}
+
+@media screen and (max-width: 640px)
+{
+    .blocApp {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    backdrop-filter: 5px;
+    color: white;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+}
+
+@media screen and (max-device-width: 480px)
+{
+.blocApp {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    backdrop-filter: 5px;
+
+    width: 100px;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+}
+
+
+
+
