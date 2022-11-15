@@ -134,7 +134,7 @@ background: url('astro.jpg');
     color: white;
 }
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 740px)
 {
     .blocApp {
     display: flex;
@@ -152,23 +152,6 @@ background: url('astro.jpg');
 }
 }
 
-@media screen and (max-device-width: 480px)
-{
-.blocApp {
-    display: flex;
-    flex-direction: column;
-    background-color: black;
-    backdrop-filter: 5px;
-
-    width: 100px;
-    margin: auto;
-    justify-content: center;
-    padding: 20px;
-    align-items: center;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-}
 
 
 
